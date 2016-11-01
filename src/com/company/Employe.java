@@ -23,7 +23,7 @@ public class Employe{
     }
 
     public String Cheque (){
-        return " Mr  "+ this.Nom + " Payez,contre ce chéque  " + calculMontant + ;
+        return " Mr  "+ this.Nom + " Payez,contre ce chéque  " + calculMontant() + ;
     }
 
 }
