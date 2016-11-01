@@ -1,0 +1,16 @@
+public class EmployePleinTemps extends Employe {
+
+    private double salaireSemaine;
+    private double prime;
+
+    public EmployePleinTemps(String non, String fonction, double salaireSemaine, double prime) {
+        super(non, fonction);
+        this.salaireSemaine = salaireSemaine;
+        this.prime = prime;
+    }
+
+    public double calculSalaire() {
+        setSalaire(salaireSemaine * 4 + prime);
+        return getSalaire();
+    }
+}
