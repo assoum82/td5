@@ -11,6 +11,6 @@ public class EmpolyeTempsPartiel extends Employe {
     
      public double setcalculMontant ()
     {
-        return this.Salaire*this.Heure;
+        return this.SalaireHeure*this.Heure; //le salaire n'a pas été rectifier ?? si tu l'affcihe ici ça sera égal à 0
     }
 }
